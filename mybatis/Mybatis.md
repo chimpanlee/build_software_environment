@@ -9,7 +9,7 @@ CREATE DATABASE `mybatis`;
 USE `mybatis`;
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
-`id` int(20) NOT NULL,
+`id` int(20) NOT NULL AUTO_INCREMENT,
 `name` varchar(20) DEFAULT NULL,
 `pwd` varchar(40) DEFAULT NULL,
 PRIMARY KEY (`id`)
